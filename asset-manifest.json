@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cis453l_project/static/css/main.644e4a5b.css",
+    "main.js": "/cis453l_project/static/js/main.7be1628d.js",
+    "static/js/453.b3159e39.chunk.js": "/cis453l_project/static/js/453.b3159e39.chunk.js",
+    "static/media/wavyflag.svg": "/cis453l_project/static/media/wavyflag.495d4e197a8d31574804bd243e83c15d.svg",
+    "index.html": "/cis453l_project/index.html",
+    "main.644e4a5b.css.map": "/cis453l_project/static/css/main.644e4a5b.css.map",
+    "main.7be1628d.js.map": "/cis453l_project/static/js/main.7be1628d.js.map",
+    "453.b3159e39.chunk.js.map": "/cis453l_project/static/js/453.b3159e39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.644e4a5b.css",
+    "static/js/main.7be1628d.js"
+  ]
+}
