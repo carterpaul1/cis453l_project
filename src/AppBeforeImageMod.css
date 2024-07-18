@@ -1,0 +1,185 @@
+body {
+  background-color: #C0392B;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin: 0 auto; /* Center the logo */
+}
+
+.App-header {
+  background-color: #C0392B;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  position: relative;
+}
+
+.App-header h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.App-header h1:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: -75px;
+  left: 0;
+  background: transparent;
+  border-radius: 50%;
+  border-bottom: 3px solid transparent;
+  transform: scale(1, 0.5);
+}
+
+.App-header h1 span {
+  display: inline-block;
+  animation: arch 2s ease-in-out infinite alternate;
+}
+
+@keyframes arch {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  justify-content: space-between; /* Align items with space between */
+  background-color: #C0392B;
+  padding: 20px;
+  color: #FFFFFF;
+  min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+  box-sizing: border-box; 
+}
+
+.App-body .labels {
+  color: #0047AB;
+}
+
+.App-link {
+  color: #002366;
+}
+
+.FlagImageLogo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 200px;
+}
+
+.order-section {
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  align-items: center;
+  margin: 20px auto; /* Center the section */
+  max-width: 600px; /* Limit the width */
+  text-align: center; /* Center text */
+}
+
+.order-form {
+  margin-bottom: 20px; /* Add space between form and buttons */
+}
+
+.order-items {
+  margin-top: 20px;
+  text-align: left; /* Align text to left */
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.dropdown,
+.quantity {
+  margin: 10px 0;
+}
+
+.dropdown label,
+.quantity label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dropdown select,
+.quantity input {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #B22234;
+  background-color: #4B5320;
+  color: #000000;
+}
+
+.quantity {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #FFD700;
+  color: #0056B3;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FFDF00;
+}
+
+.summary {
+  font-family: 'Cinzel', serif;
+  font-size: 14px;
+  background-color: #FFFFFF; /* White background */
+  color: #000000; /* Black text */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  align-self: flex-start; /* Align summary to the top */
+  margin-left: auto; /* Push summary to the right */
+  margin-top: 50px; /* Adjust the top margin to raise the position */
+  position: fixed; /* Position the summary relative to the viewport */
+  top: 50px; /* Adjust the distance from the top of the viewport */
+  right: 50px; /* Adjust the distance from the right of the viewport */
+}
+
+
+.summary h1,
+.summary p,
+.summary h2 {
+  margin: 10px 0;
+}
+
+
+
+
+footer {
+  background-color: #4B5320;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%; /* Take up full width */
+}
